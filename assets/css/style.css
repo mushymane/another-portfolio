@@ -54,3 +54,58 @@ li a {
     font-weight: bold;
     font-size: 30px;
 }
+
+/* Hero section */
+.container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image-container {
+    background-image: url("../images/IMG_7207.JPG");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.hero-text {
+    display: flex;
+    position: absolute;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    top: 35%;
+    left: 10%;
+    font-size: 25px;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.firstword {
+    color: var(--blue-text);
+}
+
+.resume-cta {
+    border: 2px solid var(--blue-text);
+    width: 180px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.resume-text {
+    color: white;
+}
