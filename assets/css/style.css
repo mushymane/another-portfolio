@@ -26,6 +26,15 @@ a {
     display: none;
 }
 
+#h1 {
+    margin-left: 10px;
+}
+
+#h2 {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
 .navbar {
     position: absolute;
     z-index: 2;
@@ -61,6 +70,7 @@ li a {
     height: 100vh;
     overflow: hidden;
 }
+
 
 .image-container {
     background-image: url("../images/IMG_7207.JPG");
@@ -134,6 +144,31 @@ li a {
     visibility: visible;
 }
 
+/* About me section */
+
+.about-header {
+    font-size: 4rem;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    position: relative;
+    margin: 5%;
+    /* width: 80%; */
+    height: auto;
+    background-size: cover;
+    /* box-shadow: var(--shadow); */
+    font-size: 2rem; /* 36px */
+}
+
+.about-section {
+    display: flex;
+
+}
+
 /* Projects section */
 .project-container {
     width: 100%;
@@ -146,7 +181,6 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .projects {
@@ -225,8 +259,8 @@ li a {
 }
 
 .button {
-    border: 2px solid var(--mid-blue);
-    background-color: rgba(185, 185, 185, 0.5);
+    border: 1px solid var(--mid-blue);
+    background-color: rgba(192, 192, 192, 0.5);
     width: 200px;
     box-shadow: var(--shadow);
     padding: 10px;
@@ -240,3 +274,55 @@ li a {
     background-color: rgba(185, 185, 185, 0.65);
     cursor: pointer;
 }
+
+/* Contact section */
+footer {
+    width: 100%;
+}
+
+.contact {
+    font-size: 3rem;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icons {
+    font-size: 2rem;
+    width: 30%;
+    margin: 5% 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#me {
+    /* position: absolute;
+    margin: 0px 35% 10px 35%; */
+    font-size: 1rem;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* .emailtooltip {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 180px;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    z-index: 3;
+    text-transform: none;
+    top: 15px;
+}
+
+#email:hover .emailtooltip {
+    visibility: visible;
+} */
