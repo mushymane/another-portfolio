@@ -10,7 +10,7 @@
     --blue-text: rgb(28, 75, 175);
     --dark-blue: rgb(15, 42, 100);
     --mid-blue: rgb(90, 120, 182);
-    
+    --shadow: -15px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 html {
@@ -156,12 +156,12 @@ li a {
     align-items: center;
 }
 
-.filler1 {
+.project-1 {
     position: relative;
     width: 400px;
     height: 400px;
     background: white;
-    box-shadow: -15px 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--shadow);
     margin: 50px;
     background-image: url("../images/blackpink.jpg");
     background-size: cover;
@@ -169,12 +169,12 @@ li a {
     border-radius: 10px;
 }
 
-.filler2 {
+.project-2 {
     position: relative;
     width: 400px;
     height: 400px;
     background: white;
-    box-shadow: -15px 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--shadow);
     margin: 50px;
     background-image: url("../images/blackpink.jpg");
     background-size: cover;
@@ -182,12 +182,12 @@ li a {
     border-radius: 10px;
 }
 
-.filler3 {
+.project-3 {
     position: relative;
     width: 400px;
     height: 400px;
     background: white;
-    box-shadow: -15px 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--shadow);
     margin: 50px;
     background-image: url("../images/blackpink.jpg");
     background-size: cover;
@@ -204,6 +204,7 @@ li a {
     bottom: 0;
     z-index: 2;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .text-container:hover {
@@ -221,4 +222,12 @@ li a {
     padding: 25px 10px;
     color: var(--dark-blue);
     font-weight: bold;
+}
+
+.button {
+    border: 5px solid var(--mid-blue);
+    width: 200px;
+    box-shadow: var(--shadow);
+    padding: 10px;
+    margin: 0px 0px 0px 150px;
 }
