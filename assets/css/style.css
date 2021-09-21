@@ -326,3 +326,106 @@ footer {
 #email:hover .emailtooltip {
     visibility: visible;
 } */
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .header nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: inline-block;
+    }
+
+    .mobile-nav-bar {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 5;
+    }
+
+    ul {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .project-1 {
+        position: relative;
+        width: 250px;
+        height: 400px;
+        background: white;
+        box-shadow: var(--shadow);
+        margin: 50px;
+        background-image: url("../images/blackpink.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+
+    .project-2 {
+        position: relative;
+        width: 250px;
+        height: 400px;
+        background: white;
+        box-shadow: var(--shadow);
+        margin: 50px;
+        background-image: url("../images/blackpink.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+
+    .project-3 {
+        position: relative;
+        width: 250px;
+        height: 400px;
+        background: white;
+        box-shadow: var(--shadow);
+        margin: 50px;
+        background-image: url("../images/blackpink.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+
+    .about-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        background-size: cover;
+        font-size: 2rem;
+        position: relative;
+        margin: 5%;
+    }
+
+    .about-text {
+        margin-left: 20px;
+        width: 100%;
+        font-size: 0.75rem;
+    }
+
+    .icons i {
+        font-size: 2rem;
+        padding: 10px;
+        margin-left: -10px;
+    }
+}
+
+.about-container {
+    position: relative;
+    margin: 5%;
+    /* width: 80%; */
+    height: auto;
+    background-size: cover;
+    /* box-shadow: var(--shadow); */
+    font-size: 2rem; /* 36px */
+}
+
+.icons {
+    font-size: 2rem;
+    width: 30%;
+    margin: 5% 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
