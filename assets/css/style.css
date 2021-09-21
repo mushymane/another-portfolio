@@ -104,8 +104,32 @@ li a {
     width: 180px;
     padding: 20px;
     margin-top: 20px;
+    text-align: center;
+    position: relative;
 }
 
 .resume-text {
     color: white;
+}
+
+.resume-cta:hover {
+    background-color: rgba(24, 24, 24, 0.4);
+}
+
+.resume-cta .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 180px;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    text-transform: none;
+    top: 15px;
+  }
+
+.resume-cta:hover .tooltiptext {
+    visibility: visible;
 }
