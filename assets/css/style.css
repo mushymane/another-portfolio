@@ -225,9 +225,18 @@ li a {
 }
 
 .button {
-    border: 5px solid var(--mid-blue);
+    border: 2px solid var(--mid-blue);
+    background-color: rgba(185, 185, 185, 0.5);
     width: 200px;
     box-shadow: var(--shadow);
     padding: 10px;
     margin: 0px 0px 0px 150px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: rgba(185, 185, 185, 0.65);
+    cursor: pointer;
 }
