@@ -16,6 +16,7 @@ To view the web page visit this [link](https://mushymane.github.io/another-portf
 - Github - where the repository is hosted
 - Visual Studio Code - text editor
 - Font Awesome - amazing icons
+- Google Fonts - for the Work Sans font
 - ScreenToGif - for recording short screen captures
 
 ## Code Snippet
