@@ -63,6 +63,7 @@ li a {
     font-weight: bold;
     font-size: 30px;
 }
+/* End of Navbar section */
 
 /* Hero section */
 .container {
@@ -143,9 +144,9 @@ li a {
 .resume-cta:hover .tooltiptext {
     visibility: visible;
 }
+/* End of Hero section */
 
-/* About me section */
-
+/* About Me section */
 .about-header {
     font-size: 4rem;
     margin: 20px;
@@ -168,6 +169,7 @@ li a {
     display: flex;
 
 }
+/* End of About Me section*/
 
 /* Projects section */
 .project-container {
@@ -316,6 +318,7 @@ footer {
     position: relative;
 }
 
+/* attempt to create a tooltip on icon hover */
 /* .emailtooltip {
     visibility: hidden;
     background-color: black;
@@ -333,6 +336,8 @@ footer {
 #email:hover .emailtooltip {
     visibility: visible;
 } */
+
+/* End of Contact section */
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
@@ -353,6 +358,11 @@ footer {
 
     ul {
         background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        list-style: none;
+        justify-content: space-between;
+        padding: 20px;
     }
 
     .project-1 {
@@ -416,23 +426,16 @@ footer {
         padding: 10px;
         margin-left: -10px;
     }
-}
 
-.about-container {
-    position: relative;
-    margin: 5%;
-    /* width: 80%; */
-    height: auto;
-    background-size: cover;
-    /* box-shadow: var(--shadow); */
-    font-size: 2rem; /* 36px */
+    #me {
+        /* position: absolute;
+        margin: 0px 35% 10px 35%; */
+        font-size: 1rem;
+        margin: 20px 20px 130px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
 }
-
-.icons {
-    font-size: 2rem;
-    width: 30%;
-    margin: 5% 35%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/* End of Media Queries section */
